@@ -10,26 +10,35 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "resolutions": {
+    "postcss-preset-env": "^8.0.1"
+  },
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "2.0.0-canary.19",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "cssnano": "^4.1.10",
-    "markdown-it-container": "^2.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "4.2.0",
+    "cssnano": "5.1.14",
     "moment": "^2.24.0",
-    "postcss": "^7.0.27",
-    "postcss-functions": "^3.0.0",
-    "postcss-import": "^12.0.1",
+    "postcss": "8.4.21",
+    "postcss-functions": "4.0.2",
+    "postcss-import": "^15.1.0",
     "postcss-math": "^0.0.10",
-    "postcss-scss": "^2.1.1",
+    "postcss-nested": "^6.0.0",
+    "postcss-preset-env": "^8.0.1",
+    "postcss-scss": "4.0.6",
     "precss": "^4.0.0"
   },
   "dependencies": {
+    "@11ty/eleventy-plugin-webc": "^0.8.1",
+    "@11ty/is-land": "^3.0.1",
     "common-tags": "^1.8.0",
     "date-fns": "^2.16.1",
-    "highlight.js": "^10.1.1",
-    "markdown-it": "^10.0.0",
-    "markdown-it-attrs": "^3.0.2",
-    "sanitize-html": "^1.27.1"
-  }
+    "highlight.js": "11.7.0",
+    "markdown-it": "13.0.1",
+    "markdown-it-attrs": "4.1.6",
+    "markdown-it-container": "3.0.0",
+    "nunjucks": "^3.2.3",
+    "sanitize-html": "2.9.0"
+  },
+  "packageManager": "yarn@3.4.1"
 }

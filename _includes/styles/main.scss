@@ -1,23 +1,23 @@
 /* SCCSS */
 
-@import "token";
+@import "token.scss";
 
-@import "ats/fonts";
+@import "ats/fonts.scss";
 
-@import "generics/reset";
-@import "generics/html";
+@import "generics/reset.scss";
+@import "generics/html.scss";
 
-@import "objects/post";
+@import "objects/post.scss";
 
-@import "components/markdown";
-@import "components/prism";
-@import "components/aspect-ratio";
-@import "components/alert";
+@import "components/markdown.scss";
+@import "components/prism.scss";
+@import "components/aspect-ratio.scss";
+@import "components/alert.scss";
 
-@import "atoms/general";
-@import "atoms/type";
-@import "atoms/spacing";
-@import "atoms/color";
-@import "atoms/grid";
-@import "atoms/flex";
-@import "atoms/size";
+@import "atoms/general.scss";
+@import "atoms/type.scss";
+@import "atoms/spacing.scss";
+@import "atoms/color.scss";
+@import "atoms/grid.scss";
+@import "atoms/flex.scss";
+@import "atoms/size.scss";

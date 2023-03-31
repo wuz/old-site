@@ -15,6 +15,7 @@ body {
 	color: var(--c-text);
 	min-height: 100vh;
 	font-size: var(--base-font-size);
+  font-family: "Recursive", monospace;
 
 	@media screen and (max-width: 468px) {
 		& {

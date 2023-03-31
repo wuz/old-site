@@ -7,7 +7,6 @@ const functions = require("./utils");
 /*
  * Plugins
  */
-const precss = require("precss");
 const cssFunctions = require("postcss-functions");
 const cssnano = require("cssnano");
 const postcssScss = require("postcss-scss");
@@ -26,7 +25,6 @@ module.exports = class {
 
   async render({ rawCss, rawFilepath }) {
     return await postcss()
-      .use(precss())
       .use(cssFunctions({ functions }))
       .use(
         cssnano({

@@ -1,0 +1,23 @@
+---
+layout: index.webc
+title: Howdy, I'm Wuz!
+---
+
+<main class="content">
+	<h1 class="term">npx wuz</h1>
+	<h2>Tech lead manager working to help other engineers learn and grow.</h2>
+	<h3 class="term">./focuses.sh</h3>
+		- <a href="https://getagora.com">Agora</a> - the day job<br />
+		- <a href="https://indyhackers.org">IndyHackers</a> - a community for tech folks in Indiana
+	<h3 class="term">./links.sh</h3>
+	- <a rel="me" href="https://twitter.com/wuz_tweets">twitter</a><br />
+	- <a rel="me" href="https://github.com/wuz">github</a><br />
+	- <a rel="me" href="https://linkedin.com/in/wuz">linkedin</a><br />
+	- <a rel="me" href="https://keybase.io/wuz">keybase</a>
+	<h3 class="term">./projects.sh</h3>
+	<p>
+		built <a href="https://dankneon.com">Dank Neon</a>, <a href="https://botsin.space/@ajjbot">AJJ Bot</a>,
+		<a href="https://picdance-party.glitch.me">Picdance</a>, and
+		<a href="https://github.com/wuz/all_google_fonts"> all google fonts </a>
+	</p>
+</main>

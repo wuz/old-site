@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title @raw="title"></title>
+    <link rel="stylesheet" href="/css/main.css" webc:keep />
+    <script src="/js/main.js" async webc:keep></script>
+    <script defer data-domain="wuz.sh" src="https://plausible.io/js/script.js" webc:keep></script>
+    <style @raw="getCss(page.url)" webc:keep></style>
+		<script @raw="getJs(page.url)" webc:keep></script>
+  </head>
+	<body>
+<section class="container padding:4 padding:4:bottom">
+      		<template @raw="content" webc:nokeep></template>
+</section>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
+    <style @raw="getCss(page.url, 'defer')" webc:keep></style>
+		<script @raw="getJs(page.url, 'defer')" webc:keep></script>
+</body>
+</html>
